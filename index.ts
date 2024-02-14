@@ -19,7 +19,7 @@ const TYPES = {
 const type = argv[2] as keyof typeof TYPES
 
 const notify = async ({ message = '', sound = 'Funky' }) => {
-  await $`terminal-notifier -sender com.apple.Terminal -activate com.apple.Terminal -message ${message} -sound ${sound}`
+  await $`terminal-notifier -title '⏳' -sender com.apple.Terminal -activate com.apple.Terminal -message ${message} -sound ${sound}`
 }
 
 const selectedType = TYPES[type]

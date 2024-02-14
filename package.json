@@ -1,7 +1,13 @@
 {
   "name": "bun-shell-min-timer",
+  "description": "Simple version of the pomodoro timer. Project created to test bun-shell",
   "module": "index.ts",
+  "version": "0.0.1",
   "type": "module",
+  "author": "Marcos <hello@marcosrjjunior.com>",
+  "scripts": {
+    "build": "bun build index.ts --compile --outfile timer"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },

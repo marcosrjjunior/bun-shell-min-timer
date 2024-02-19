@@ -35,3 +35,9 @@ Run:
 bun index.ts work
 bun index.ts rest
 ```
+
+#### How to build
+
+```sh
+bun run build
+```
